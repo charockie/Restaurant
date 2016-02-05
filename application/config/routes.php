@@ -54,6 +54,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 //$route['news/(:any)'] = 'news/view/$1';
 //$route['news'] = 'news';
 //$route['(:any)'] = 'pages/view/$1';
+$route['admin'] = '/admin/login';
+
 $route['menu/search'] = '/menu/searchFood';
 $route['menu/search/(:any)'] = '/menu/searchFood/$1';
 $route['typography'] = 'typography/index';
