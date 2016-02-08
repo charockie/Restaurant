@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Internet Dreams</title>
+<title><?php echo $title; ?></title>
 <link rel="stylesheet" href="/public/static/admin/css/screen.css" type="text/css" media="screen" title="default" />
 <!--  jquery core -->
 <script src="/public/static/admin/js/jquery/jquery-1.4.1.min.js" type="text/javascript"></script>
@@ -36,14 +36,15 @@ $(document).pngFix( );
 	
 	<!--  start login-inner -->
 	<div id="login-inner">
+        <form action="admin" method="POST" id="auth-form">
 		<table border="0" cellpadding="0" cellspacing="0">
 		<tr>
 			<th>Username</th>
-			<td><input type="text"  class="login-inp" /></td>
+			<td><input name="login" type="text"  class="login-inp" /></td>
 		</tr>
 		<tr>
 			<th>Password</th>
-			<td><input type="password" value="************"  onfocus="this.value=''" class="login-inp" /></td>
+			<td><input name="password" type="password" value="************"  onfocus="this.value=''" class="login-inp" /></td>
 		</tr>
 		<tr>
 			<th></th>
@@ -51,9 +52,10 @@ $(document).pngFix( );
 		</tr>
 		<tr>
 			<th></th>
-			<td><input type="button" class="submit-login"  /></td>
+			<td><input type="submit" class="submit-login"  /></td>
 		</tr>
 		</table>
+        </form>
 	</div>
  	<!--  end login-inner -->
 	<div class="clear"></div>
