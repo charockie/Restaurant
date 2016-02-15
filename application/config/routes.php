@@ -53,6 +53,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['admin'] = '/admin/login';
 $route['admin/main'] = '/admin/main';
 $route['admin/logout'] = '/admin/logOut';
+$route['admin/delete'] = '/admin/delete/$1';
+$route['admin/main/(:any)'] = '/admin/main/$1';
 
 $route['menu/search'] = '/menu/searchFood';
 $route['menu/search/(:any)'] = '/menu/searchFood/$1';

@@ -97,15 +97,15 @@ way to fit your requirements.
 	/* margin: 0 auto; */
 	padding: 0;
 	}
-.nav .sub_active .current_sub a, 
+.nav .sub_active .current_sub a,
 .nav .sub_active a:hover	{
 	background: transparent;
 	color: #f00;
 	}
-.nav .select :hover .select_sub, 
+.nav .select :hover .select_sub,
 .nav .current .show	{
 	background: url(/public/images/admin/images/shared/nav/back_0.gif);
-	 
+
 	display: block;
 	left: 0;
 	padding: 0;
@@ -118,7 +118,7 @@ way to fit your requirements.
 .nav .current .show	{
 	z-index: 10;
 	}
-.nav .select :hover .sub li a, 
+.nav .select :hover .sub li a,
 .nav .current .show .sub li a	{
 	background: transparent;
 	border: 0;
@@ -134,7 +134,7 @@ way to fit your requirements.
 	color: #088;
 	cursor: default;
 	}
-.nav .select :hover .sub li a:hover, 
+.nav .select :hover .sub li a:hover,
 .nav .current .sub li a:hover	{
 	background: url(/public/images/admin/images/shared/nav/back_1.gif);
 	color: #088;
