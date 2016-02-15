@@ -14,11 +14,11 @@
 
         <table border="0" width="100%" cellpadding="0" cellspacing="0" id="content-table">
             <tr>
-                <th rowspan="3" class="sized"><img src="/public/images/admin/images/shared/side_shadowleft.jpg" width="20" height="300" alt="" /></th>
+                <th rowspan="3" class="sized"><img src="/images/admin/images/shared/side_shadowleft.jpg" width="20" height="300" alt="" /></th>
                 <th class="topleft"></th>
                 <td id="tbl-border-top">&nbsp;</td>
                 <th class="topright"></th>
-                <th rowspan="3" class="sized"><img src="/public/images/admin/images/shared/side_shadowright.jpg" width="20" height="300" alt="" /></th>
+                <th rowspan="3" class="sized"><img src="/images/admin/images/shared/side_shadowright.jpg" width="20" height="300" alt="" /></th>
             </tr>
             <tr>
                 <td id="tbl-border-left"></td>
@@ -34,7 +34,7 @@
                                 <table border="0" width="100%" cellpadding="0" cellspacing="0">
                                     <tr>
                                         <td class="green-left">Product added sucessfully. <a href="">Add new one.</a></td>
-                                        <td class="green-right"><a class="close-green"><img src="/public/images/admin/images/table/icon_close_green.gif"   alt="" /></a></td>
+                                        <td class="green-right"><a class="close-green"><img src="/images/admin/images/table/icon_close_green.gif"   alt="" /></a></td>
                                     </tr>
                                 </table>
                                 <?php endif; ?>
@@ -45,7 +45,7 @@
                                 <table border="0" width="100%" cellpadding="0" cellspacing="0">
                                     <tr>
                                         <td class="red-left">Error. <?php echo validation_errors(); echo $image_errors; ?></td>
-                                        <td class="red-right"><a class="close-red"><img src="/public/images/admin/images/table/icon_close_red.gif"   alt="" /></a></td>
+                                        <td class="red-right"><a class="close-red"><img src="/images/admin/images/table/icon_close_red.gif"   alt="" /></a></td>
                                     </tr>
                                 </table>
                                 <?php endif; ?>

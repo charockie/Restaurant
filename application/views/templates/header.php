@@ -5,15 +5,15 @@
 <head>
     <!--[if lt IE 7]><style type="text/css">html{display:none;}</style><script>alert('Please get a new browser!');</script><![endif]-->
 
-    <script src="/public/static/js/jquery.min.js"></script>
-    <script>!window.jQuery && document.write('<script src="/public/static/js/jquery.1.5.2.js"><\/script>')</script>
+    <script src="/static/js/jquery.min.js"></script>
+    <script>!window.jQuery && document.write('<script src="/static/js/jquery.1.5.2.js"><\/script>')</script>
 
     <script>
         jQuery.noConflict();
     </script>
 
     <!--[if IE]>
-    <script src="/public/static/js/html5.js"></script>
+    <script src="/static/js/html5.js"></script>
     <![endif]-->
 
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -26,13 +26,12 @@
 
     <title><?php echo $title; ?></title>
 
-    <link href="/public/favicon.ico" rel="shortcut icon" />
+    <link href="/favicon.ico" rel="shortcut icon" />
 
-    <link rel="stylesheet" href="/public/static/css/Dancing_Script.css" media="screen" />
-    <link rel="stylesheet" href="/public/static/css/Dancing_Script.css" media="screen" />
-    <link rel="stylesheet" href="/public/static/css/template.css" media="screen" />
-    <link rel="stylesheet" href="/public/static/css/colorbox.css" />
-    <link rel="stylesheet" href="/public/static/css/options.css" />
+    <link rel="stylesheet" href="/static/css/Dancing_Script.css" media="screen" />
+    <link rel="stylesheet" href="/static/css/template.css" media="screen" />
+    <link rel="stylesheet" href="/static/css/colorbox.css" />
+    <link rel="stylesheet" href="/static/css/options.css" />
 
     <noscript>
         <style>
@@ -40,7 +39,7 @@
         </style>
     </noscript>
 
-    <script src="/public/static/js/scripts.js"></script>
+    <script src="/static/js/scripts.js"></script>
 
 
 
@@ -58,7 +57,7 @@
         <div id="logo" class="left">
             <a href="/">
                 Te Contei Restaurant Template Demo
-                <img src="/public/images/logos/logo.png" alt="Te Contei Restaurant Template Demo" />
+                <img src="/images/logos/logo.png" alt="Te Contei Restaurant Template Demo" />
             </a>
         </div>
 

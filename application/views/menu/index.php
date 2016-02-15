@@ -42,7 +42,7 @@
                         <td>
                             <h5><span>
                                     <a rel="lightbox[1]" href="/template/demo_images/<?php echo $menu['image'];?>" title="Mauris ornare">
-                                        <img src="/public/images/eye.png" alt="" class="icon" /><?php echo $menu['name'];?></a></span></h5></span></h5>
+                                        <img src="/images/eye.png" alt="" class="icon" /><?php echo $menu['name'];?></a></span></h5></span></h5>
 
                             <details class="small">
                                 <p><?php echo $menu['description'];?></p>
@@ -90,9 +90,9 @@
 
             <div class="module">
                 <h3>Chef's recommendation</h3>
-                <p><a class="thumbnail" href="/public/demo_images/sushi.jpg" rel="lightbox[0]" title="Maecenas a purus risus">
+                <p><a class="thumbnail" href="/demo_images/sushi.jpg" rel="lightbox[0]" title="Maecenas a purus risus">
 
-                        <img class="caption left" src="/public/demo_images/sushi_thumb.jpg" border="0" title="Maecenas a purus risus" width="165" height="109" /></a>
+                        <img class="caption left" src="/demo_images/sushi_thumb.jpg" border="0" title="Maecenas a purus risus" width="165" height="109" /></a>
                     Mauris ornare libero in risus ullamcorper dignissim. Suspendisse metus libero,
                     dictum et laoreet hendrerit, dapibus non velit. Integer consectetur euismod sem
                     vitae vestibulum. Nam quis enim non nunc fermentum volutpat at ac nunc.

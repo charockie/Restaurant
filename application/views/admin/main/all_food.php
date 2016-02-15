@@ -12,11 +12,11 @@
 
 <table border="0" width="100%" cellpadding="0" cellspacing="0" id="content-table">
 <tr>
-    <th rowspan="3" class="sized"><img src="/public/images/admin/images/shared/side_shadowleft.jpg" width="20" height="300" alt="" /></th>
+    <th rowspan="3" class="sized"><img src="/images/admin/images/shared/side_shadowleft.jpg" width="20" height="300" alt="" /></th>
     <th class="topleft"></th>
     <td id="tbl-border-top">&nbsp;</td>
     <th class="topright"></th>
-    <th rowspan="3" class="sized"><img src="/public/images/admin/images/shared/side_shadowright.jpg" width="20" height="300" alt="" /></th>
+    <th rowspan="3" class="sized"><img src="/images/admin/images/shared/side_shadowright.jpg" width="20" height="300" alt="" /></th>
 </tr>
 <tr>
 <td id="tbl-border-left"></td>
@@ -32,7 +32,7 @@
 <!--                <table border="0" width="100%" cellpadding="0" cellspacing="0">-->
 <!--                    <tr>-->
 <!--                        <td class="yellow-left">You have a new message. <a href="">Go to Inbox.</a></td>-->
-<!--                        <td class="yellow-right"><a class="close-yellow"><img src="/public/images/admin/images/table/icon_close_yellow.gif"   alt="" /></a></td>-->
+<!--                        <td class="yellow-right"><a class="close-yellow"><img src="/images/admin/images/table/icon_close_yellow.gif"   alt="" /></a></td>-->
 <!--                    </tr>-->
 <!--                </table>-->
 <!--            </div>-->
@@ -44,7 +44,7 @@
                 <table border="0" width="100%" cellpadding="0" cellspacing="0">
                     <tr>
                         <td class="red-left"><?php echo $del_message; ?></a></td>
-                        <td class="red-right"><a class="close-red"><img src="/public/images/admin/images/table/icon_close_red.gif"   alt="" /></a></td>
+                        <td class="red-right"><a class="close-red"><img src="/images/admin/images/table/icon_close_red.gif"   alt="" /></a></td>
                     </tr>
                 </table>
                 <?php endif; ?>
@@ -56,7 +56,7 @@
                 <table border="0" width="100%" cellpadding="0" cellspacing="0">
                     <tr>
                         <td class="blue-left">Welcome back. <a href="">View my account.</a> </td>
-                        <td class="blue-right"><a class="close-blue"><img src="/public/images/admin/images/table/icon_close_blue.gif"   alt="" /></a></td>
+                        <td class="blue-right"><a class="close-blue"><img src="/images/admin/images/table/icon_close_blue.gif"   alt="" /></a></td>
                     </tr>
                 </table>
             </div>
@@ -67,7 +67,7 @@
 <!--                <table border="0" width="100%" cellpadding="0" cellspacing="0">-->
 <!--                    <tr>-->
 <!--                        <td class="green-left">Product added sucessfully. <a href="">Add new one.</a></td>-->
-<!--                        <td class="green-right"><a class="close-green"><img src="/public/images/admin/images/table/icon_close_green.gif"   alt="" /></a></td>-->
+<!--                        <td class="green-right"><a class="close-green"><img src="/images/admin/images/table/icon_close_green.gif"   alt="" /></a></td>-->
 <!--                    </tr>-->
 <!--                </table>-->
 <!--            </div>-->
@@ -109,7 +109,7 @@
                         <td><?php echo $product['description']; ?></td>
                         <td><a href=""><?php echo $product['eating']; ?></a></td>
                         <td><?php echo $product['price']; ?></td>
-                        <td><a rel="lightbox" href="/public/uploads/<?php echo $product['image'].'.jpg';?>"><?php echo $product['image'].'.jpg'; ?></a></td>
+                        <td><a rel="lightbox" href="/uploads/<?php echo $product['image'].'.jpg';?>"><?php echo $product['image'].'.jpg'; ?></a></td>
                         <td class="options-width">
                             <a href="" title="Edit" class="icon-1 info-tooltip"></a>
                             <a href="/admin/delete/<?php echo $product['id']; ?>" title="Delete" class="icon-2 info-tooltip"></a>

@@ -51,7 +51,7 @@
         <div class="module fmodule col-module col-module-last">
             <div>
                 <h3>We accept all cards</h3>
-                <p><img src="/public/demo_images/credit-cards.png" class="left" style="margin: 0 15px 15px 0;" />
+                <p><img src="/demo_images/credit-cards.png" class="left" style="margin: 0 15px 15px 0;" />
                     No cash? No problem! You won't have to wash dishes.</p>
             </div>
 
@@ -87,10 +87,10 @@
 </footer><!-- end footer -->
 
 
-<script src="/public/static/js/jquery.colorbox-min.js"></script>
-<script src="/public/static/js/jquery.validity.pack.js"></script>
+<script src="/static/js/jquery.colorbox-min.js"></script>
+<script src="/static/js/jquery.validity.pack.js"></script>
 
-<script src="/public/static/js/jquery.nivo.slider.pack.js"></script>
+<script src="/static/js/jquery.nivo.slider.pack.js"></script>
 
 <script>
     jQuery(function(){

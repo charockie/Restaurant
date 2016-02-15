@@ -7,17 +7,17 @@ Alternatively please check the readme file.
 */
 body
 {
-	background-image: url(/public/images/cloth-bewitched.jpg);
+	background-image: url(/images/cloth-bewitched.jpg);
 }
 
 #headercloth
 {
-	background-image: url(/public/images/header-cloth-bewitched.jpg);
+	background-image: url(/images/header-cloth-bewitched.jpg);
 }
 
 #header .wrap
 {
-	background-image: url(/public/images/header-highlight-bewitched.jpg);
+	background-image: url(/images/header-highlight-bewitched.jpg);
 }
 
 #nav, h1, h2, h3, h4, h5, h6

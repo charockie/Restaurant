@@ -14,8 +14,8 @@
                 <h1 class="article-title styled-header"><?php echo $greeting['header']; ?></h1>
 
                 <div class="article-body">
-                    <p><a class="thumbnail" href="/public/demo_images/restaurant.jpg" rel="lightbox[77]" title="Restaurant Photo">
-                            <img class="left shadow" src="/public/demo_images/restaurant-157x117.jpg" alt="Restaurant Photo" width="157" height="117" /></a>
+                    <p><a class="thumbnail" href="/demo_images/restaurant.jpg" rel="lightbox[77]" title="Restaurant Photo">
+                            <img class="left shadow" src="/demo_images/restaurant-157x117.jpg" alt="Restaurant Photo" width="157" height="117" /></a>
                         <?php echo $greeting['header_text']; ?></p>
 
                     <h2><?php echo $greeting['about']; ?></h2>
@@ -35,10 +35,10 @@
 
 
                 <div id="slider" class="nivoSlider">
-                    <img src="/public/demo_images/slider/seafood.jpg" title="#caption1" alt="" />
-                    <img src="/public/demo_images/slider/sushi.jpg" title="#caption2" alt="" />
-                    <a href="menu"><img src="/public/demo_images/slider/spaghetti.jpg" title="#caption3" alt="" /></a>
-                    <img src="/public/demo_images/slider/meat.jpg" title="#caption4" alt="" />
+                    <img src="/demo_images/slider/seafood.jpg" title="#caption1" alt="" />
+                    <img src="/demo_images/slider/sushi.jpg" title="#caption2" alt="" />
+                    <a href="menu"><img src="/demo_images/slider/spaghetti.jpg" title="#caption3" alt="" /></a>
+                    <img src="/demo_images/slider/meat.jpg" title="#caption4" alt="" />
                 </div>
 
 

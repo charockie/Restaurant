@@ -3,19 +3,19 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title><?php echo $title;?></title>
-    <link rel="stylesheet" href="/public/static/admin/css/colorbox.css" type="text/css" />
-    <link rel="stylesheet" href="/public/static/admin/css/screen.css" type="text/css" media="screen" title="default" />
+    <link rel="stylesheet" href="/static/admin/css/colorbox.css" type="text/css" />
+    <link rel="stylesheet" href="/static/admin/css/screen.css" type="text/css" media="screen" title="default" />
     <!--[if IE]>
-    <link rel="stylesheet" media="all" type="text/css" href="/public/static/admin/css/pro_dropline_ie.css" />
+    <link rel="stylesheet" media="all" type="text/css" href="/static/admin/css/pro_dropline_ie.css" />
     <![endif]-->
 
     <!--  jquery core -->
-    <script src="/public/static/admin/js/jquery/jquery-1.4.1.min.js" type="text/javascript"></script>
+    <script src="/static/admin/js/jquery/jquery-1.4.1.min.js" type="text/javascript"></script>
 
     <!--  checkbox styling script -->
-    <script src="/public/static/admin/js/jquery/ui.core.js" type="text/javascript"></script>
-    <script src="/public/static/admin/js/jquery/ui.checkbox.js" type="text/javascript"></script>
-    <script src="/public/static/admin/js/jquery/jquery.bind.js" type="text/javascript"></script>
+    <script src="/static/admin/js/jquery/ui.core.js" type="text/javascript"></script>
+    <script src="/static/admin/js/jquery/ui.checkbox.js" type="text/javascript"></script>
+    <script src="/static/admin/js/jquery/jquery.bind.js" type="text/javascript"></script>
     <script type="text/javascript">
         $(function(){
             $('input').checkBox();
@@ -30,7 +30,7 @@
     <![if !IE 7]>
 
     <!--  styled select box script version 1 -->
-    <script src="/public/static/admin/js/jquery/jquery.selectbox-0.5.js" type="text/javascript"></script>
+    <script src="/static/admin/js/jquery/jquery.selectbox-0.5.js" type="text/javascript"></script>
     <script type="text/javascript">
         $(document).ready(function() {
             $('.styledselect').selectbox({ inputClass: "selectbox_styled" });
@@ -41,7 +41,7 @@
     <![endif]>
 
     <!--  styled select box script version 2 -->
-    <script src="/public/static/admin/js/jquery/jquery.selectbox-0.5_style_2.js" type="text/javascript"></script>
+    <script src="/static/admin/js/jquery/jquery.selectbox-0.5_style_2.js" type="text/javascript"></script>
     <script type="text/javascript">
         $(document).ready(function() {
             $('.styledselect_form_1').selectbox({ inputClass: "styledselect_form_1" });
@@ -50,7 +50,7 @@
     </script>
 
     <!--  styled select box script version 3 -->
-    <script src="/public/static/admin/js/jquery/jquery.selectbox-0.5_style_2.js" type="text/javascript"></script>
+    <script src="/static/admin/js/jquery/jquery.selectbox-0.5_style_2.js" type="text/javascript"></script>
     <script type="text/javascript">
         $(document).ready(function() {
             $('.styledselect_pages').selectbox({ inputClass: "styledselect_pages" });
@@ -58,7 +58,7 @@
     </script>
 
     <!--  styled file upload script -->
-    <script src="/public/static/admin/js/jquery/jquery.filestyle.js" type="text/javascript"></script>
+    <script src="/static/admin/js/jquery/jquery.filestyle.js" type="text/javascript"></script>
     <script type="text/javascript" charset="utf-8">
         $(function() {
             $("input.file_1").filestyle({
@@ -71,11 +71,11 @@
     </script>
 
     <!-- Custom jquery scripts -->
-    <script src="/public/static/admin/js/jquery/custom_jquery.js" type="text/javascript"></script>
+    <script src="/static/admin/js/jquery/custom_jquery.js" type="text/javascript"></script>
 
     <!-- Tooltips -->
-    <script src="/public/static/admin/js/jquery/jquery.tooltip.js" type="text/javascript"></script>
-    <script src="/public/static/admin/js/jquery/jquery.dimensions.js" type="text/javascript"></script>
+    <script src="/static/admin/js/jquery/jquery.tooltip.js" type="text/javascript"></script>
+    <script src="/static/admin/js/jquery/jquery.dimensions.js" type="text/javascript"></script>
     <script type="text/javascript">
         $(function() {
             $('a.info-tooltip ').tooltip({
@@ -92,9 +92,9 @@
 
 
     <!--  date picker script -->
-    <link rel="stylesheet" href="/public/static/admin/css/datePicker.css" type="text/css" />
-    <script src="/public/static/admin/js/jquery/date.js" type="text/javascript"></script>
-    <script src="/public/static/admin/js/jquery/jquery.datePicker.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="/static/admin/css/datePicker.css" type="text/css" />
+    <script src="/static/admin/js/jquery/date.js" type="text/javascript"></script>
+    <script src="/static/admin/js/jquery/jquery.datePicker.js" type="text/javascript"></script>
     <script type="text/javascript" charset="utf-8">
         $(function()
         {
@@ -164,7 +164,7 @@
     </script>
 
     <!-- MUST BE THE LAST SCRIPT IN <HEAD></HEAD></HEAD> png fix -->
-    <script src="/public/static/admin/js/jquery/jquery.pngFix.pack.js" type="text/javascript"></script>
+    <script src="/static/admin/js/jquery/jquery.pngFix.pack.js" type="text/javascript"></script>
     <script type="text/javascript">
         $(document).ready(function(){
             $(document).pngFix( );
@@ -180,7 +180,7 @@
 
         <!-- start logo -->
         <div id="logo">
-            <a href=""><img src="/public/images/admin/images/shared/logo.png" width="156" height="40" alt="" /></a>
+            <a href=""><img src="/images/admin/images/shared/logo.png" width="156" height="40" alt="" /></a>
         </div>
         <!-- end logo -->
 
@@ -199,7 +199,7 @@
                         </select>
                     </td>
                     <td>
-                        <input type="image" src="/public/images/admin/images/shared/top_search_btn.gif"  />
+                        <input type="image" src="/images/admin/images/shared/top_search_btn.gif"  />
                     </td>
                 </tr>
             </table>
@@ -224,9 +224,9 @@
         <div id="nav-right">
 
             <div class="nav-divider">&nbsp;</div>
-            <div class="showhide-account"><img src="/public/images/admin/images/shared/nav/nav_myaccount.gif" width="93" height="14" alt="" /></div>
+            <div class="showhide-account"><img src="/images/admin/images/shared/nav/nav_myaccount.gif" width="93" height="14" alt="" /></div>
             <div class="nav-divider">&nbsp;</div>
-            <a href="/admin/logout" id="logout"><img src="/public/images/admin/images/shared/nav/nav_logout.gif" width="64" height="14" alt="" /></a>
+            <a href="/admin/logout" id="logout"><img src="/images/admin/images/shared/nav/nav_logout.gif" width="64" height="14" alt="" /></a>
             <div class="clear">&nbsp;</div>
 
             <!--  start account-content -->

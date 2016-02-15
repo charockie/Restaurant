@@ -3,15 +3,15 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title><?php echo $title; ?></title>
-<link rel="stylesheet" href="/public/static/admin/css/screen.css" type="text/css" media="screen" title="default" />
+<link rel="stylesheet" href="/static/admin/css/screen.css" type="text/css" media="screen" title="default" />
 <!--  jquery core -->
-<script src="/public/static/admin/js/jquery/jquery-1.4.1.min.js" type="text/javascript"></script>
+<script src="/static/admin/js/jquery/jquery-1.4.1.min.js" type="text/javascript"></script>
 
 <!-- Custom jquery scripts -->
-<script src="/public/static/admin/js/jquery/custom_jquery.js" type="text/javascript"></script>
+<script src="/static/admin/js/jquery/custom_jquery.js" type="text/javascript"></script>
 
 <!-- MUST BE THE LAST SCRIPT IN <HEAD></HEAD></HEAD> png fix -->
-<script src="/public/static/admin/js/jquery/jquery.pngFix.pack.js" type="text/javascript"></script>
+<script src="/static/admin/js/jquery/jquery.pngFix.pack.js" type="text/javascript"></script>
 <script type="text/javascript">
 $(document).ready(function(){
 $(document).pngFix( );
@@ -25,7 +25,7 @@ $(document).pngFix( );
 
 	<!-- start logo -->
 	<div id="logo-login">
-		<a href="index.html"><img src="/public/images/admin/images/shared/logo.png" width="156" height="40" alt="" /></a>
+		<a href="index.html"><img src="/images/admin/images/shared/logo.png" width="156" height="40" alt="" /></a>
 	</div>
 	<!-- end logo -->
 	

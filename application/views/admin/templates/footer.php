@@ -8,7 +8,7 @@
     <div class="clear">&nbsp;</div>
 </div>
 <!-- end footer -->
-<script src="/public/static/admin/js/jquery/jquery.colorbox-min.js" type="text/javascript"></script>
+<script src="/static/admin/js/jquery/jquery.colorbox-min.js" type="text/javascript"></script>
 <script>
     jQuery(function(){
         jQuery("a[rel*='lightbox']").colorbox({

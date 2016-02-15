@@ -21,8 +21,8 @@
 
             <div class="article-body">
 
-                <p><a class="thumbnail" href="/public/demo_images/restaurant.jpg" rel="lightbox[]" title="Image">
-                        <img class="left" src="/public/demo_images/restaurant-420x177.jpg" alt="Image" width="420" height="177" /></a>
+                <p><a class="thumbnail" href="/demo_images/restaurant.jpg" rel="lightbox[]" title="Image">
+                        <img class="left" src="/demo_images/restaurant-420x177.jpg" alt="Image" width="420" height="177" /></a>
                     In a massa libero, ut consequat sapien. Nulla sem nulla, vehicula non eleifend ac, posuere at lectus. Vivamus magna quam, vehicula eget commodo non,
                     elementum sit amet dolor. Duis sit amet sem nunc, non blandit odio. Nunc vitae turpis erat, ac euismod eros. Phasellus varius dolor in est eleifend tempor.
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dolor metus, mattis pretium aliquet vel, iaculis pharetra risus. Morbi elementum tempor dui, non.

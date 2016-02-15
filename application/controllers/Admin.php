@@ -66,7 +66,7 @@ class Admin extends CI_Controller
 
             foreach ($products as $prod)
             {
-                $file = file_exists('public/uploads/'.$prod['id'].'.jpg');
+                $file = file_exists('uploads/'.$prod['id'].'.jpg');
                 if ($file !== TRUE)
                 { $prod['image'] = 'no_image'; }
                 else
@@ -108,7 +108,7 @@ class Admin extends CI_Controller
             $this->load->helper(array('form', 'url'));
             $this->load->library('form_validation');
 
-            $config['upload_path']  = './public/uploads/';
+            $config['upload_path']  = './uploads/';
             $config['allowed_types']= 'jpg';
             $config['max_size']     = 1000;
             $config['max_width']    = 1024;
