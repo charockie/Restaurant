@@ -2,27 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a522a2f5-3115-4142-87d1-3455534a8ca8" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\wamp\www\application\controllers\News.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\application\controllers\Pages.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\application\controllers\Welcome.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\application\models\News_model.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\application\views\blogview.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\application\views\news\create.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\application\views\news\index.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\application\views\news\success.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\application\views\news\view.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\application\views\pages\about.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\application\views\pages\home.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\application\views\welcome_message.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Admin.php" afterPath="$PROJECT_DIR$/application/controllers/Admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/Admin_model.php" afterPath="$PROJECT_DIR$/application/models/Admin_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Menu.php" afterPath="$PROJECT_DIR$/application/controllers/Menu.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/Menu_model.php" afterPath="$PROJECT_DIR$/application/models/Menu_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Site.php" afterPath="$PROJECT_DIR$/application/controllers/Site.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/Site_model.php" afterPath="$PROJECT_DIR$/application/models/Site_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Typography.php" afterPath="$PROJECT_DIR$/application/controllers/Typography.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/Typography_model.php" afterPath="$PROJECT_DIR$/application/models/Typography_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/User_model.php" afterPath="$PROJECT_DIR$/application/models/User_model.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Visitka.iws" />
@@ -445,7 +424,13 @@
       <option name="project" value="LOCAL" />
       <updated>1455571468762</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Revert &quot;Signed-off-by: dmitriy &lt;basman9911@gmail.com&gt;&quot;&#10;&#10;Repear commit Dima">
+      <created>1455574740801</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1455574740801</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -512,9 +497,9 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Revert &quot;Signed-off-by: dmitriy &lt;basman9911@gmail.com&gt;&quot;&#10;&#10;This reverts commit 2970112820c1281c26af0a4e59b4d7a2c0eac267.&#10;" />
-    <MESSAGE value="Revert &quot;Signed-off-by: dmitriy &lt;basman9911@gmail.com&gt;&quot;&#10;&#10;Repear commit Dima" />
     <MESSAGE value="Revert &quot;Signed-off-by: dmitriy &lt;basman9911@gmail.com&gt;&quot;&#10;&#10;Repear commit №2 Dima" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Signed-off-by: dmitriy &lt;basman9911@gmail.com&gt;&quot;&#10;&#10;Repear commit №2 Dima" />
+    <MESSAGE value="Revert &quot;Signed-off-by: dmitriy &lt;basman9911@gmail.com&gt;&quot;&#10;&#10;Repear commit Dima" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Signed-off-by: dmitriy &lt;basman9911@gmail.com&gt;&quot;&#10;&#10;Repear commit Dima" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
